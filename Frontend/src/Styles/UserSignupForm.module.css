@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height:min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+} 
+
+.appWrapper{
+    background-color: bisque;
+    min-width: 300px;
+    min-height: 500px;
+    padding:50px;
+    box-sizing: border-box;
+    border-radius:10px;
+} 
+
+.title {
+    text-align: center;
+    color: rgba(235, 27, 131, 0.884);
+    margin: 20px 0px 20px 0px;
+}
+
+.label {
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgba(235, 27, 131, 0.884);
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    border-radius:5px;
+    border: none;
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+} 
+
+button {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(77, 213, 236);
+}

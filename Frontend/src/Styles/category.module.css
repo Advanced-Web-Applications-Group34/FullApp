@@ -1,0 +1,12 @@
+.container {
+    margin: 70px 0;
+    text-align: center;
+}
+
+.elementsGrid {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}

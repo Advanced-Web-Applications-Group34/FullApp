@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.label{
+    margin: 20px 20px 20px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgba(235, 27, 131, 0.884);
+}
+
+.resType{
+    margin: 10px 0px 15px 0px;
+    border: none;
+    border-radius:5px;
+}
+
+.addingBtn{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.addingBtn:hover{
+    background-color: rgb(77, 213, 236);
+} 
+
+.disableBtn{
+    width:100%;
+}
+.disableBtn:hover{
+    background-color: rgb(77, 213, 236);
+} 
+
+.listWrapper{
+    margin: 30px 0px 10px 0px;
+}
+
+.itemList{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.deleteBtn{
+    width :25px;
+}

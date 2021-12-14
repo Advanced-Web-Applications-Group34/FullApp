@@ -1,0 +1,228 @@
+{
+     "restaurants": 
+     [
+        {
+        "id": 1,
+        "name": "Luckiefun's Sushi Buffet",
+        "image": "luckiefun.png",
+        "categories": ["sushi", "asian"],
+        "priceRange": "€",
+        "rate": 3.7
+        },
+        {
+        "id": 2,
+        "name": "Rax Pizzabuffet",
+        "image": "rax.jpeg",
+        "categories": ["pizza"],
+        "priceRange": "€",
+        "rate": 4.2
+        },
+        {
+        "id": 3,
+        "name": "McDonald's",
+        "image": "mcdo.png",
+        "categories": ["burger"],
+        "priceRange": "€",
+        "rate": 3.7
+        },
+        {
+        "id": 4,
+        "name": "Taco Bell",
+        "image": "taco-bell.png",
+        "categories": ["mexican"],
+        "priceRange": "€€",
+        "rate": 3.6
+        },
+        {
+        "id": 5,
+        "name": "Best Kebap",
+        "image": "best-kebap.jpg",
+        "categories": ["burger", "kebap"],
+        "priceRange": "€",
+        "rate": 3.5
+        },
+        {
+        "id": 6,
+        "name": "Noodle Bar 9",
+        "image": "noodle-bar-9.jpg",
+        "categories": ["asian"],
+        "priceRange": "€€",
+        "rate": 4.4
+        },
+        {
+        "id": 7,
+        "name": "M6 Dining",
+        "image": "m6-dining.jpg",
+        "categories": ["burger", "kebap"],
+        "priceRange": "€€",
+        "rate": 3.8
+        },
+        {
+        "id": 8,
+        "name": "Viking Restaurant Harald",
+        "image": "viking-restaurant-harald.png",
+        "categories": ["finnish"],
+        "priceRange": "€€",
+        "rate": 4.6
+        },
+        {
+        "id": 9,
+        "name": "Plan B Pizzeria Restaurant",
+        "image": "plan-b.jpeg",
+        "categories": ["burger", "pizza", "kebap"],
+        "priceRange": "€€",
+        "rate": 4.3
+        }
+    ],
+
+    "categories":   
+    [
+        {
+        "id": 1,
+        "name": "Burger",
+        "image": "mcdo.png"
+        },
+        {
+        "id": 2,
+        "name": "Sushi",
+        "image": "luckiefun.png"
+        },
+        {
+        "id": 3,
+        "name": "Pizza",
+        "image": "plan-b.jpeg"
+        },
+        {
+        "id": 4,
+        "name": "Mexican",
+        "image": "taco-bell.png"
+        },
+        {
+        "id": 5,
+        "name": "Kebap",
+        "image": "best-kebap.jpg"
+        },
+        {
+        "id": 6,
+        "name": "Asian",
+        "image": "noodle-bar-9.jpg"
+        },
+        {
+        "id": 7,
+        "name": "Finnish",
+        "image": "viking-restaurant-harald.png"
+        }
+
+  ],
+
+  "products": [
+        {
+            "id": 1,
+            "id_restaurant": 1,
+            "category_name": "Menus",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Sushi",
+                    "description": "Product description",
+                    "price": 7.50
+                },
+                {
+                    "id": 2,
+                    "name": "Sushi 2",
+                    "description": "Product description 2",
+                    "price": 8.50
+                },
+                {
+                    "id": 3,
+                    "name": "Sushi 3",
+                    "description": "Product description 3",
+                    "price": 9.50
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "id_restaurant": 1,
+            "category_name": "Snacks",
+            "products": [
+                {
+                    "id": 3,
+                    "name": "French fries S",
+                    "description": "Product description",
+                    "price": 2.50
+                },
+                {
+                    "id": 4,
+                    "name": "French fries XL",
+                    "description": "Product description",
+                    "price": 3.50
+                },
+                {
+                    "id": 5,
+                    "name": "Nuggets",
+                    "description": "Product description",
+                    "price": 4.50
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "id_restaurant": 3,
+            "category_name": "Menus",
+            "products": [
+                {
+                    "id": 6,
+                    "name": "Big mac",
+                    "description": "Product description",
+                    "price": 9.50
+                },
+                {
+                    "id": 7,
+                    "name": "C.B.O",
+                    "description": "Product description",
+                    "price": 10.50
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "id_restaurant": 3,
+            "category_name": "Snacks",
+            "products": [
+                {
+                    "id": 8,
+                    "name": "Small fries",
+                    "description": "Product description",
+                    "price": 2.50
+                },
+                {
+                    "id": 9,
+                    "name": "Medium Fries",
+                    "description": "Product description",
+                    "price": 3.50
+                },
+                {
+                    "id": 10,
+                    "name": "Large fries",
+                    "description": "Product description",
+                    "price": 4.50
+                },
+                {
+                    "id": 11,
+                    "name": "Nuggets x4",
+                    "description": "Product description",
+                    "price": 3.50
+                },
+                {
+                    "id": 12,
+                    "name": "Nuggets x6",
+                    "description": "Product description",
+                    "price": 4.50
+                }
+            ]
+        }
+  ]
+
+}
+

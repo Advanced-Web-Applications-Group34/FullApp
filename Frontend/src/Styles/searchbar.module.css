@@ -1,0 +1,23 @@
+.container {
+    margin: 70px 0;
+    text-align: center;
+}
+
+.searchbar {
+    background-color: #36305e;
+    width: 60%;
+    height: 50px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    padding-left: 10px;
+    outline: none;
+    color: white;
+}
+
+.searchbar::placeholder {
+    color: rgb(189, 189, 189);
+}
+
+.icon {
+    margin-left: -40px;
+}

@@ -1,0 +1,53 @@
+.card{
+    text-align: center;
+    justify-content: center;
+    padding: 90px 0 90px 0;
+    display:flex;
+}
+
+.container{
+    height: 400px;
+    width: 380px;
+    border: 2px solid white;
+    padding-top: 80px;
+    border-radius:50px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    background-color: rgb(77, 213, 236)
+}
+
+.btn1{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(32, 143, 151, 0.938);
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 15px;
+} 
+
+.btn2{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(32, 143, 151, 0.938);
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin: 15px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+

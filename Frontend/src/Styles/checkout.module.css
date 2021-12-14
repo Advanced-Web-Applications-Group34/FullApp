@@ -1,0 +1,41 @@
+.formWrapper {
+    position: relative;
+    border: 2px;
+    width: 75%;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;   
+    box-shadow: 5px 5px 10px grey ;
+    background-color: #281c41;
+}
+
+.cardInformation {
+    margin: 40px;
+}
+
+.cardInformation input {
+    display: block;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.cardInformation label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.cardInformation button {
+    margin-top: 40px;
+}
+
+.cardInformation > div {
+    display: flex;
+    justify-content: space-between;
+}
